@@ -117,5 +117,5 @@ class LayoutsTest(parameterized.TestCase):
       test_utils.assert_trees_all_close(updates, expected)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
   absltest.main()
